@@ -1,0 +1,740 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: sans-serif;
+}
+.nav-baar{
+    height: 80px;
+    background-color: rgb(111, 172, 111);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+}
+
+.logo{
+    width: 120px;
+    background-size: cover;
+    mix-blend-mode: darken;
+   height: 80px;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+ .top{
+    height: 40px;
+    text-align: center;
+    width: 50px;
+    border: none;
+    
+    border-top-left-radius:5px ;
+    border-bottom-left-radius:5px;
+ }
+.serach{
+    display: flex;
+    align-items: center;
+   
+    height: 40px;
+    width: 600px;
+    
+}
+.serach-input{
+    height: 40px;
+    width: 100%;
+    border: none;
+    background-size: cover;
+}
+
+.input{
+    height: 40px;
+    width: 100%;
+    border: none;
+    
+}
+.deals{
+    height: 40px;
+    color: white;
+    
+    
+}
+.deals p{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.deals p span{
+    color: red;
+    font-size: 1.8rem;
+}
+.search-logo{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    border: none;
+    border-top-right-radius:5px ;
+    border-bottom-right-radius:5px;
+    background-color: white;
+    cursor: pointer;
+}
+.nav-log-in{
+    
+}
+.button{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    background-color:  rgb(152, 219, 149);
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button:hover{
+    background-color:  rgb(55, 93, 54);
+    color: white;
+}
+.button-reg{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    background-color:  rgb(152, 219, 149);
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button-reg:hover{
+    background-color:  rgb(87, 122, 85);
+    color: white;
+ }
+/*  shop items upload */
+
+.upload-item{
+    width: 100%;
+    height:110vh;
+     top: 0%;
+    position: fixed;
+    transition: 1s;
+    background-size: cover;
+    background-image: url(white-3d-pedestal-background-with-realistic-palm-leaves-for-cosmetic-product-presentation-or-fashion-magazine-free-vector.jpg);
+    left: -100%;
+    z-index: 1;
+    overflow: hidden;
+}
+.display{
+    display: none;
+}
+.height{
+  left: 0%;
+}
+
+.whle{
+
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.bp p i{
+    font-size: 1.8rem;
+  padding: 5px;
+  color: white;
+  transition: 0.3s;
+  color: black;
+}
+.bp p i:hover{
+   cursor: pointer;
+   font-size: 2rem;
+    color: green;
+}
+.conatiner{
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    background-image: url("backgrond\ of\ upload.webp");
+    background-size: cover;
+    border-radius: 20px;
+}
+.look{
+   
+    width: 500px;
+    height: 600px;
+   
+}
+.bi{
+    width: 500px;
+    height:600px ;
+   background-image: url("pro-gro.jpeg");
+   background-size: cover;
+}
+.bp{
+    width: 500px;
+    height:600px ;
+   
+    background-size: cover;
+}
+.bp p{
+    font-size: 1.3rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    padding: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+color: rgb(9, 15, 16);
+overflow:auto;
+}
+.bp p span{
+    font-size: 1.4rem;
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+}
+.item{
+   
+
+    height: 600px;
+    transition: 1.5s;
+    width: 500px;
+    
+}
+
+.item h2{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(39, 13, 56);
+    font-weight: bold;
+}
+.item-section{
+  width: 60%;
+   
+   
+
+}
+.shop-data{
+    margin-left: 10px;
+}
+.box1 h2{
+    color: hotpink;
+}
+.name{
+    font-size: 1.1rem;
+    margin-left: 20px;
+   
+}
+#aval{
+    color: green;
+}
+.box{
+    width: 300px;
+    height: 400px;
+    box-shadow: 0px 0px 10px rgb(215, 209, 160);
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+.box1{
+    width: 300px;
+    height: 470px;
+    box-shadow: 0px 0px 10px rgb(215, 209, 160);
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.added{
+    position: relative;
+    transform: translate(-50% , -50%);
+    left: 75%;
+    top: 10%;
+    color: rgb(7, 150, 7);
+    font-size: 1.2rem;
+}
+.item-section input{
+    font-size: 1rem;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: rgb(130, 202, 164);
+    border: none;
+    box-shadow: 0px 0px 3px white;
+    height: 25px;
+    padding: 10px;
+    width: 400px;
+   
+    margin-left: 30px;
+}
+.btn4{
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color:  rgb(59, 98, 77);
+    color: white;
+    font-family: sans-serif;
+    font-size: 1rem;
+    position: relative;
+   top: 7%;
+   left: 48%;
+   transform: translate(-50% , -50%);
+   
+    
+    font-weight: bold;
+    transition: 1.5s;
+    border-radius: 5px;
+}
+.btn4:hover{
+    cursor: pointer;
+   background-color: transparent;
+   border: 2px solid;
+    color: rgb(67, 2, 57);
+    width: 110px;
+}
+
+
+/*  login data*/
+
+.login{
+    background-image: url("white-3d-pedestal-background-with-realistic-palm-leaves-for-cosmetic-product-presentation-or-fashion-magazine-free-vector.jpg");
+    background-size: cover;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    opacity: 1;
+    transition: 1s;
+    left: -100%;
+}
+.show-login{
+   left: 0%;
+    
+}
+.imageoflogo{
+   
+    width: 100%;
+    height: 100vh;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+
+
+
+}
+.login i{
+   position: fixed;
+   top: 40%;
+  
+    font-size: 50px;
+    cursor: pointer;
+}
+.login i:hover{
+    color: rebeccapurple;
+}
+#rem{
+    left: -100%;
+}
+
+.image{
+    width: 400px;
+    height: 500px;
+   background-image: url("Pro\ dukandar\ logo.jpg");
+    background-size: cover;
+    border-top-left-radius: 10px;
+    box-shadow: 0px 0px 20px rgb(176, 176, 190);
+    border-bottom-left-radius:10px ;
+   
+}
+.log-in-data{
+    transition: 1.5s;
+    box-shadow: 0px 0px 20px rgb(160, 160, 243);
+    border-top-right-radius:10px ;
+   background-color: white;
+    border-bottom-right-radius:10px ;
+    height: 500px;
+    width: 400px;
+}
+.log-in-data h2{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(22, 203, 140);
+    font-weight: bold;
+    
+}
+.log-in-data input{
+    font-size: 1rem;
+    height: 20px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(207, 240, 202);
+    width: 300px;
+    border-radius: 5px;
+    padding: 10px;
+}
+  
+.input-section{
+   margin: 30px;
+   
+    
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color:  rgb(22, 203, 140);
+    color: white;
+    font-family: sans-serif;
+    font-size: 1rem;
+    
+    position: absolute;
+    top: 50%;
+    left: 60%;
+   
+    font-weight: bold;
+    
+   transition: 1.5s;
+    border-radius: 5px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color:  rgb(129, 207, 180);
+    border: 1px solid rgb(249, 251, 251);
+    color: white;
+    width: 130px;
+}
+.already{
+    position: absolute;
+    top: 65%;
+    left: 65%;
+    transform: translate(-50% ,-50%);
+   
+    font-family: 'Times New Roman', Times, serif;
+}
+.already p{
+    font-size: 20pxpx;
+    color: black;
+    
+}
+.registration{
+    width: 100px;
+    height: 30px;
+    border: none;
+    font-size: 1rem;
+    background: transparent;
+    color: rgb(77, 105, 230);
+    
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+#reg{
+    font-size: 1rem;
+    color: rgb(71, 68, 240);
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.register{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+   
+    background-image: url("white-3d-pedestal-background-with-realistic-palm-leaves-for-cosmetic-product-presentation-or-fashion-magazine-free-vector.jpg");
+   background-size: cover;
+    opacity: 1;
+    transition: 1s;
+    left: -100%;
+    
+}
+.show-regiseter{
+    left: 0%;
+}
+.none{
+    display: none;
+}
+.register i{
+ font-size: 50px;
+ position: fixed;
+ top: 40%;
+ color: white;
+ 
+ 
+}
+#bck{
+    left: -100%;
+}
+.ad{
+    left: 5% ;
+}
+.register i:hover{
+    color: red;
+    cursor: pointer;
+}
+.input-entered{
+  
+    position: absolute;
+    top: 50%;
+    transition: 1.5s;
+    box-shadow: 0px 0px 30px rgb(204, 200, 159);
+    border-radius: 10px;
+    left: 50%;
+    box-shadow: 0px 0px 15px rgb(89, 129, 160);
+    transform: translate(-50% ,-50%);
+    height: 500px;
+    width: 800px;
+    transition: 1.5s;
+}
+.input-entered:hover{
+    width:805px ;
+}
+.input-entered h2{
+    text-align: center;
+    margin-top: 10px;
+}
+.input-entered h2 span{
+    color: rgb(64, 91, 77);
+}
+.inputs{
+    position: absolute;
+    width: 700px;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+     
+}
+.inputs input{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 300px;
+    height: 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(113, 131, 113);
+}
+.inputs input::placeholder{
+    color: white;
+}
+#right{
+    width: 20px;
+    height: 15px;
+    margin-top: 15px;
+}
+#btn2{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50% , 50%);
+    width: 100px;
+    height: 40px;
+    border: none;
+    font-size: 1rem;
+    border-radius: 10px;
+    color:white;
+    font-weight: bold;
+    background-color: rgb(84, 155, 104);
+    transition: 1.5s;
+}
+#btn2:hover{
+    width: 120px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+
+.success{
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50% , 50%);
+    color: green;
+    opacity: 0;
+    font-weight: bold;
+}
+.show-success{
+    opacity: 1;
+}
+
+
+
+
+
+.nav-cart{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    border: none;
+    font-size: 2rem;
+    
+    cursor: pointer;
+}
+
+
+.hero-section{
+    margin-top: 80px;
+    height: 300px;
+  z-index: -1;
+   
+    
+}
+
+.hero-img{
+    z-index: -1;
+
+    
+   height: 300px;
+    
+    width: 100%;
+    background-image: url("ba.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.hero-items{
+    height: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    justify-content: space-evenly;
+   
+}
+
+.box h2{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.box p{
+    margin-left: 10px;
+    margin-top: 5px;
+    background-color: rgb(207, 187, 138);
+    border: 1px solid ;
+    width: 80px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.box p:hover{
+    cursor: pointer;
+    background-color: transparent;
+}
+.img{
+    background-size: contain;
+    width: 280px;
+    height: 300px;
+    margin: 10px 10px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+    .box-insert{
+        width: 300px;
+        height: 500px;
+        box-shadow: 0px 0px 10px rgb(215, 209, 160);
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+.box-insert h2{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.box-insert h3{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.box-insert p{
+    margin-left: 160px;
+    margin-top: 20px;
+    color: green;
+    font-weight: bold;
+}
+    
+    .image-shop{
+    background-size: contain;
+    width: 280px;
+    height: 300px;
+    margin: 10px 10px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+footer{
+    height: 510px;
+    background-color: rgb(111, 172, 111);
+    margin-top: 30px;
+    width: 100%;
+}
+.footer-root{
+    background-color: rgb(101, 155, 101);
+    height: 200px;
+    position: relative;
+    width: 100%;
+}
+.footer-root a{
+    position: absolute;
+    top: 75%;
+    left: 45%;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.footer-root p{
+    font-size: 1.3rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    
+}
+.footer-root h3{
+    margin-left: 30px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+   color: rgb(11, 3, 16);
+   font-size: 1.4rem;
+}
+.footer-item{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#color{
+    color: rgb(235, 48, 82);
+    font-weight: bold;
+}
+.para{
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 20px;
+
+}
+.para p{
+    margin-top: 15px;
+    
+}
+.para p i{
+    cursor: pointer;
+}
+
+.footer3{
+    background-color: rgb(101, 155, 101);
+    color: white;
+    text-align: center;
+    height: 60px;
+    margin-top: 30px;
+}

@@ -1,0 +1,297 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro Dukandar</title>
+    <link rel="stylesheet" href="index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+ </head>
+ <body >
+    <header>
+        <div class="nav-baar" id="home">
+              <div class="nav-logo">
+                 <div class="logoa">
+       <img src="Pro dukandar logo.jpg" alt="" class="logo">
+                 </div>
+              </div>
+         <div class="deals">
+            <p>Best <span>Deals</span></p>
+         </div>
+              <div class="serach">
+                 <div class="top-list">
+                    <select name="" id="" class="top">
+                     <option value=""> Top</option>  
+                    </select>
+                 </div>
+                 <div class="serach-input">
+                    <input type="text" placeholder="Pro Search..." class="input">
+                 </div>
+                 <div class="search-logo">
+                    <i class='bx bx-search-alt-2'></i>
+                 </div>
+              </div>
+               <div class="nav-cart">
+                <i class='bx bx-cart-alt' style='color:#6dd891'  ></i>
+               </div>
+              <div class="nav-log-in">
+                    <button class="button">Log in </button>
+              </div>
+              <div class="nav-log-in">
+               <button class="button-reg">Register </button>
+         </div>
+        </div>
+    </header>
+  
+   
+
+
+
+  
+       <div class="login">
+        <p  id="rem" ><i class='bx bx-left-arrow-alt'></i></p> 
+        <div class="imageoflogo">
+         <div class="image"></div>
+         <div class="log-in-data">
+             <h2>Log in</h2>  
+          <div class="input-section">
+              <input type="text" placeholder="Enter username...." id="name">  <br>
+              
+              <input type="password" placeholder="Enter password...." id="pass"> <br>
+            </div>
+              <div class="already">
+                <p> <span>Don't have an account? </span> <button class="registration">Register </button></p>
+                <p> <span>Forgot password ? </span> <span id="reg">password </span></p>
+              </div>
+              <button class="btn" id="btn-pro">Log in</button>
+
+          </div>
+         </div>
+       </div>  
+       
+    <div class="register">
+      <p  id="bck" ><i class='bx bx-left-arrow-alt'></i></p>
+          <div class="input-entered">
+            
+            <h2> Register <span>Pro Dukandar</span></h2>
+              <div class="inputs">
+                     <input type="text" placeholder="Enter your Name.." id="username" > 
+                     <input type="text" placeholder="Enter your email.." id="email"> <br>
+                     <input type="text" placeholder="Enter your phone number.." id="ph"> 
+                     <input type="text" placeholder="Enter your Aadhaar card Number.." id="addar"> <br>
+                     <input type="text" placeholder="Enter your Pan Card number.." id="pan"> 
+                     <input type="text" placeholder="Enter your Permanent address.." id="address"> <br>
+                     <input type="text" placeholder="Enter your Shop Name.." id="shopname"> 
+                     <input type="text" placeholder="Type of Shop.." id="shoptype"> <br>
+                     <input type="text" placeholder="Enter Shop address.." id="shopaddress"> <br>
+                     <input type="checkbox" name="right" id="right" > <label for="right">Terms and conditions?</label>
+                  </div>  
+                  <button id="btn2">Submit</button>       
+               <div class="success">You have successfully registered</div>
+
+          </div>
+       
+    </div>
+
+
+
+
+
+
+
+
+   
+   
+    <div class="hero-section">
+         <div class="hero-img">
+
+         </div>
+        
+    </div>
+
+    <div class="upload-item">
+     
+      <div class="whle">
+        
+         <div class="conatiner">
+  <div class="look ">
+           
+           <div class="bp">
+            <p> <i id="send" class='bx bx-horizontal-left'></i>
+            <span>Terms and Conditions :</span> <br> <br>
+             
+            Pro Dukandar charges for selling your produnt as per product prices 
+            
+            <br> 
+            <p> (a) 0 - 5000₹  charges 2% on every product selling 
+ <br><br>(b) 5000 - 20,000₹  charges 5% on every product selling 
+ <br><br>(b) 20,000 - 1,00,000₹  charges 7% on every product selling 
+ <br><br>(b) 1,00,000 - onwards  charges 10% on every product selling 
+            </p>
+            </p>
+
+            </p>
+
+           </div>
+
+
+  </div>
+      <div class="item ">
+         <h2>Upload your product </h2>  
+          <div class="item-section">
+              <input type="text" placeholder="Enter shop Owner Name...." id="owner" required>  <br>
+              <input type="text" placeholder="Shop Name...." id="shop-name" required> <br>
+              <input type="text" placeholder="Enter your shop address ...." id="shop-address" required>  <br>   
+              <input type="text" placeholder="Product type eg:- Laptop , keyboard ,...." required id="ty"> <br>
+              <input type="number" placeholder="Product Price (INR ₹) ...." id="price" required> <br>
+              <input type="number" placeholder="Availability of Product ...." id="product-aval" required> <br>
+            </div>
+           
+            
+              <button class="btn4" id="btn4" onclick="func()">Submit</button>
+              <p  id="added" class="added display">Your Product successfully added ! </p>
+      </div>
+   </div>
+    </div>
+   </div>
+
+    <div class="hero-items">
+      
+       
+       
+      
+        
+        <div class=" box">
+            <h2>Beauty Products</h2>
+            <img src="bueaty2.jpeg" alt="" class="img">
+            <p>View More</p>
+ 
+         </div>
+         <div class=" box">
+            <h2>Grocery Products</h2>
+            <img src="grocery.jpeg" alt="" class="img">
+            <p>View More</p>
+ 
+         
+         </div>
+         <div class="box3 box">
+            <h2>Mans Products</h2>
+            <img src="mansdeal.jpeg" alt="" class="img">
+            <p>View More</p>
+ 
+         
+         </div>
+         <div class="box">
+            <h2>Electronics Products</h2>
+            <img src="Electronics.jpeg" alt="" class="img">
+            <p>View More</p>
+ 
+         </div>
+         <div class="box1 box display" id="product">
+            <h2 id="type"> Bueaty Products</h2>
+             <img src="bueaty2.jpeg" alt="" class="img">
+           <div class="shop-data">
+             <strong id="yes" class="name">Shop Name</strong><br>
+            <strong id="own" class="name">Owner</strong><br>
+            <strong id="addres" class="name">Shop Address</strong> <br>
+            <strong id="pri" class="name">Price</strong> <br>
+            <strong id="aval" class="name">Availability</strong>
+         </div> 
+         </div>
+      </div>
+          
+       
+ 
+    <footer>
+        <div class="footer-root">
+         <h3>About Us</h3>
+         <p>Pro Dukandar is 100% safe and secure website
+            for shopkeepers and custmers. One of most
+            biggest advantage of this webstie is you can 
+            serach your required product, You have two option to buy
+            one is online and second is offline becucase 
+            your local shopkeepers upload those Products.
+            Time waste is reduced becucase you have 
+            address of shop where your product avalible.</p>
+           
+        </div>
+        <div class="footer-item">
+               <div class="para1 para">
+                 <p id="color"> Get to Know Us</p> 
+                 <p>About Us</p>  
+                 <p>Careers</p>  
+                 <p>Press Releases</p>
+                 <p> Pro Dukandar Science</p>  
+               </div>
+               
+               <div class="para2 para">
+               <p id="color"> Connect with Us</p>
+                <p id="fb">Facebook <i class='bx bxl-facebook-circle' style='color:#1023ba'  ></i> </p>
+                 <p id="tw">Twitter <i class='bx bxl-twitter'></i></p>
+                  <p id="in">Instagram <i class='bx bxl-instagram' style='color:#b13c91'  ></i></p>
+                  <p id="li">Linkdln <i class='bx bxl-linkedin-square'></i></p>
+                  <p id="yt">You Tube <i class='bx bxl-youtube' style='color:#e8062e'  ></i></p>
+                </div>
+  
+                 <div class="para3 para">
+                  <p id="color">  Let Us Help You</p>
+                  <p>COVID-19 and Pro Dukandar</p>
+                    <p>Your Account</p>
+                   <p>Returns Centre</p>
+                   <p>100% Purchase Protection</p>
+                   <p>Pro Dukandar App Download</p>
+                    <p>Help</p>
+                 </div>
+             
+        </div>
+        <div class="footer3">
+            <p>© 2022-2023, Pro Dukandar.com, Inc. or its affiliates</p>
+        </div>
+    </footer>
+    
+ </body>
+ <script src="index.js"></script>
+
+
+ <script type="module">
+   // Import the functions you need from the SDKs you need
+   import { initializeApp } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js";
+   import { getDatabase , ref , set , get , child  } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-database.js";
+   
+   const firebaseConfig = {
+     apiKey: "AIzaSyDB_SBjZBD9zCR4uYV9SdAmDHU0Sa4DMtY",
+     authDomain: "pro-dukandar.firebaseapp.com",
+     projectId: "pro-dukandar",
+     storageBucket: "pro-dukandar.appspot.com",
+     messagingSenderId: "1066580665701",
+     appId: "1:1066580665701:web:806e369b41676e9e71ed8c"
+   };
+ 
+   // Initialize Firebase
+   const app = initializeApp(firebaseConfig);
+   
+  
+   const db = getDatabase(app);
+
+   document.getElementById("btn2").addEventListener('click' , (e)=>{
+          e.preventDefault
+   set(ref(db , 'user/' + document.getElementById("username").value),{
+      Name: document.getElementById("username").value , 
+      email: document.getElementById("email").value , 
+      ph   : document.getElementById("ph").value , 
+      aadhar : document.getElementById("addar").value , 
+      pan: document.getElementById("pan").value , 
+      address: document.getElementById("address").value , 
+      shopname: document.getElementById("shopname").value , 
+      shoptype: document.getElementById("shoptype").value , 
+      shopaddress: document.getElementById("shopaddress").value , 
+      
+   });
+   alert("Sucessfully register");
+   
+   })
+    
+
+ </script>
+ </html>          
